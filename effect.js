@@ -170,8 +170,8 @@ $('document').ready(function(){
 		$('#b77').animate({top:240, left: vw+250},500);
 		$('#b88').animate({top:240, left: vw+350},500);
 		$('.balloons').css('opacity','0.9');
-		$('.balloons h2').fadeIn(3000);
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$('.balloons h2').fadeIn(5000);
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
 	});
